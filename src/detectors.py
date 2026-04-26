@@ -112,7 +112,7 @@ def p_zz_probability(
 if __name__ == "__main__":
     np.set_printoptions(precision=4, suppress=True)
 
-    N = 5
+    N = 6
     pd = 1e-8
 
     print("\n=== 1) detectors_probability: VSS full path ===")
