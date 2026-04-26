@@ -121,4 +121,4 @@ if __name__ == "__main__":
     # In a truncated Fock space, this should be close to identity.
     assert np.allclose(K_sum, I, atol=1e-10)
 
-    print("\n✅ operators.py sanity checks passed")
+    print("\noperators.py sanity checks passed")
