@@ -1,0 +1,12 @@
+setting,value
+state,VSS
+method,PSO
+n_truncation,6
+p_dark,1e-08
+f_reconciliation,1.16
+loss_db_range,"[0.0, 5.0, 10.0, 15.0, 20.0, 25.0, 30.0]"
+parallel_over_losses,True
+max_workers,3
+seed,1
+pso_kwargs,"{""n_particles"": 20, ""maxiter"": 50}"
+de_kwargs,"{""maxiter"": 30, ""popsize"": 8, ""polish"": false}"
